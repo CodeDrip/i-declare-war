@@ -1,0 +1,52 @@
+War Game Psuedo
+
+player 1
+player 2
+deck of 52 cards
+a comparison
+
+start game
+
+shuffle card
+
+divide cards into two decks
+
+seperate each deck between 2 players
+
+arrange both decks bottom to top w cards identity hidden
+
+//function draw + compare
+
+select card on top of both decks
+
+reveal identity of card
+
+compare player 1 + 2 card
+
+//higher card takes all comparing card + put them on the bottom of the deck
+
+if player 1 card > player 2 card , add both cards to bottom of player 1 deck
+
+if player 2 card > player 1 card , add both cards to bottom of player 2 deck
+
+// I DECLARE WAR
+
+if player 1 card == player 2 card
+
+player 1 draw 4 cards, the 4th will be compared
+
+player 2 draw 4 cards, the 4th will be compared
+
+if player 1 card == player 2 card,
+
+I DECLARE WAR again
+
+if player 1 card > player 2 card , add both cards to bottom of player 1 deck
+
+if player 2 card > player 1 card , add both cards to bottom of player 2 deck
+
+loop until player 1 cards [].length == 0
+
+loop until player 2 cards [].length == 0
+
+
